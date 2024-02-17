@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    /*box-sizing: border-box;
+    /*font-family: 'Caveat', cursive;*/
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bolder;
+    /*overflow: hidden;*/
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(7, 1, 17);
+}
+.hero{
+    height: 1000px;
+    width: 100%;
+    background-image: url(../assets/images/lofoten.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 15px;
+    
+    
+}
+
+.logo{
+    color: white;
+    font-size: 3rem;
+
+}
+
+span{
+    color: green;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 10px;
+    
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover{
+    color: green;
+    transform: .3s;
+}
+
+button{
+    border: none;
+    background: green;
+    padding: 12px 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    transition: .4s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.intro{
+    
+    height: 600px;
+    width: 500px;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    left: 36%;
+    text-align: center;
+}
+
+
+
+.coder{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(../assets/images/cj.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 20% ;
+    left: 17%;
+}
+
+.intro p{
+    position: absolute;
+    top: 75%;
+    color: white;
+    text-align: center;
+}
+
+.intro .start {
+    border: none;
+    background: green;
+    padding: 12px 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    transition: .4s;
+    position: absolute;
+    top: 90%;
+    left: 35%;
+}
+
+#all{
+    margin-top: 3%;
+    font-weight: bold;
+    height: 100vh;
+    width: 100%;
+}
+
+.about{
+    color: white;
+    margin-top: 30px;
+    height: 400px;
+    width: 47%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 10%;
+}
+
+.image-placer{
+    /*background-color: aqua;*/
+    float: left;
+    align-items: center;
+    background-position: center;
+}
+
+.image-placer img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: 35%;
+}
+
+.about-stuff{
+    /*background-color: red;*/
+    float: right;
+
+}
+
+.about-stuff ul, h2, p{
+    margin-left: 18px;
+    
+}
+
+p {
+    width: 85%;
+    text-align: justify;
+    margin-top: 17px;
+}
+
+h2{
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.about-stuff ul{
+    padding-top: 17px;
+}
+
+.about-stuff ul{
+    padding-top: 17px;
+}
+
+.about-btn{
+    width: 100px;
+    position: absolute;
+    top: 75%;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.next {
+    left: 80%;
+}
+
+.previous {
+    left: 67%;
+}
