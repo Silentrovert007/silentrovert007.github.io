@@ -7,6 +7,7 @@
     font-weight: bolder;
     /*overflow: hidden;*/
     scroll-behavior: smooth;
+    color: white;
 }
 
 body{
@@ -62,6 +63,7 @@ nav ul li a:hover{
 
 button{
     border: none;
+    text-transform: capitalize;
     background: green;
     padding: 12px 20px;
     border-radius: 30px;
@@ -205,4 +207,27 @@ ul{
 
 .previous {
     left: 67%;
+}
+
+#services {
+    height: 100vh;
+    width: 100%;
+    margin-top: 15px;
+}
+#services h1{
+    position: relative;
+    top: 3%;
+    text-align: center;
+}
+
+.service-btn {
+    position: relative;
+    left: 44.5%;
+    top: 80%;
+    width: 100px;
+    align-items: center;
+}
+
+.sright{
+    margin-left: 5px;
 }
